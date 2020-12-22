@@ -1,0 +1,302 @@
+/* General */
+body {
+  font-family: 'Caveat Brush', cursive;
+  text-align: center;
+  color: white;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Container */
+@media only screen and (min-width: 1600px) {
+  .container {
+    max-width: 1540px;
+  }
+}
+
+/* Hover Move Up Effect */
+.hover-move-up {
+  transition: .3s;
+}
+
+.hover-move-up:hover {
+  transform: translate3d(0, -8px, 0);
+}
+
+.body-back {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: 0;
+  width: 100%;
+}
+
+/* Header */
+.header {
+  background-color: white;
+}
+
+.navmenu {
+  width: 300px;
+  height: 60px;
+  margin: auto;
+}
+
+.logo {
+  width: 130px;
+  height: auto;
+}
+
+.nav-icon {
+  width: 30px;
+  height: auto;
+  margin-left: 5px;
+}
+
+.top-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Main */
+.main {
+  font-size: 18px;
+}
+
+.text {
+  display: inline-block;
+  padding: 2px 20px;
+  border: 2px solid rgba(103, 162, 3, 0.8);
+  border-radius: 1.05vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.sup-1 {
+  font-size: 1vw;
+  top: -2vw;
+}
+
+.sup-2 {
+  font-size: 0.84vw;
+  top: -1.58vw;
+}
+
+.text-1 {
+  margin-top: 0;
+}
+
+.text-2 {
+  margin-top: 50px;
+}
+
+.globe {
+  position: relative;
+  right: 4.2vw;
+  width: 47.95vw;
+  height: auto;
+  margin-top: 4.74vw;
+}
+
+.text-3 {
+  margin-top: 10px;
+}
+
+.kess-box {
+  position: relative;
+  left: 1.32vw;
+  width: 33.74vw;
+  margin-top: 4.21vw;
+}
+
+.text-4 {
+  margin-top: 3.68vw;
+}
+
+.kess-board {
+  position: relative;
+  margin-top: 5vw;
+}
+
+.kess-board-img {
+  width: 51.37vw;
+  height: auto;
+}
+
+.kess-board-text {
+  position: absolute;
+  top: 7.37vw;
+  right: -10px;
+}
+
+.counterdown-box {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 2px 20px;
+  border: 2px solid rgba(103, 162, 3, 0.8);
+  border-radius: 1.05vw;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.time-number {
+  margin-top: 1.16vw;
+  font-size: 5vw;
+}
+
+.number {
+  display: inline-block;
+  width: 8.89vw;
+  height: 8.89vw;
+  border-radius: 50%;
+  background-image: url("../img/blue-circle.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hyphen {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 1.05vw;
+}
+
+.time-text {
+  margin-right: -10px;
+  font-size: 14px;
+}
+
+.green-btn {
+  width: 140px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.green-text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: lightgreen;
+}
+
+/* Footer */
+.footer {
+  font-size: 16px;
+}
+
+.address {
+  margin-bottom: 10px;
+}
+
+.link {
+  margin: 1.05vw;
+  color: white;
+  transition: 0.3s;
+}
+
+.link:hover {
+  text-decoration: none;
+  color: grey;
+}
+
+.vertical-bar {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.email {
+  margin-top: 10px;
+}
+
+
+@media only screen and (min-width: 420px) {
+  .body-back {
+    top: 0;
+  }
+
+  .main {
+    font-size: 3.79vw;
+  }
+
+  .text {
+    padding: 2.53vw 4.74vw;
+    border: 2px solid rgba(103, 162, 3, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .text-1 {
+    margin-top: 0.26vw;
+  }
+
+  .text-2 {
+    margin-top: 31.58vw;
+  }
+
+  .text-3 {
+    margin-top: 5.16vw;
+  }
+
+  .kess-board-text {
+    position: absolute;
+    top: 7.37vw;
+    right: 3.42vw;
+  }
+
+  .counterdown-box {
+    margin-top: 5.26vw;
+    padding: 2.63vw 6.05vw 4.47vw;
+    border: 2px solid rgba(103, 162, 3, 0.5);
+    border-radius: 1.05vw;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .time-text {
+    margin-left: 2.63vw;
+    margin-right: 0.53vw;
+    font-size: 2.37vw;
+  }
+
+  .green-text {
+    margin-top: 1.05vw;
+    font-size: 3.68vw;
+  }
+
+  .footer {
+    font-size: 2.89vw;
+  }
+
+  .address {
+    margin: 8.42vw 0 2.89vw;
+  }
+
+  .email {
+    margin: 1.58vw 0 5.79vw;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .navmenu {
+    width: 66.05vw;
+    height: 7.89vw;
+    margin: auto;
+  }
+
+  .logo {
+    width: 23.84vw;
+  }
+
+  .nav-icon {
+    width: 5.58vw;
+    margin-left: 1.84vw;
+  }
+
+  .green-btn {
+    width: 22.79vw;
+    margin-top: 3.42vw;
+  }
+}
