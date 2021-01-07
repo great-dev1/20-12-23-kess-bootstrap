@@ -22,24 +22,24 @@
 <body>
   <!-- <img src="../testback-1.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.7"> -->
 
-  <!-- Body Backgound Image -->
-  <img class="body-back" src="assets/img/body-back.jpg">
-
   <!-- Navbar -->
   <header class="header">
     <div class="navmenu d-flex flex-row justify-content-between align-items-center">
-      <a href="#">
+      <a href="index.php">
         <img class="logo hover-move-up" src="assets/img/logo.png" alt="logo">
       </a>
       <div>
         <a href="#"><img class="nav-icon hover-move-up" src="assets/img/shop-icon.png" alt="shop"></a>
-        <a href="#"><img class="nav-icon hover-move-up" src="assets/img/howto-icon.png" alt="howto"></a>
+        <a href="intro.html"><img class="nav-icon hover-move-up" src="assets/img/howto-icon.png" alt="howto"></a>
         <a href="#"><img class="nav-icon hover-move-up" src="assets/img/facebook-icon.png" alt="facebook"></a>
         <a href="#"><img class="nav-icon hover-move-up" src="assets/img/twitter-icon.png" alt="twitter"></a>
       </div>
     </div>
   </header>
   <!-- /Navbar -->
+
+  <!-- Body Backgound Image -->
+  <img class="body-back" src="assets/img/home/body-back.jpg">
 
   <main class="main d-flex flex-column justify-content-between align-items-center">
     <P class="text text-1" data-aos="fade-up" data-aos-duration="1000">
@@ -54,13 +54,13 @@
       Skill and Strategy!
     </P>
 
-    <img class="globe" src="assets/img/globe.png" alt="globe" data-aos="fade-up" data-aos-duration="1000">
+    <img class="globe" src="assets/img/home/globe.png" alt="globe" data-aos="fade-up" data-aos-duration="1000">
 
     <p class="text text-3" data-aos="fade-up" data-aos-duration="1000">
       The Fastest Braine Wins!
     </p>
 
-    <img class="kess-box" src="assets/img/kess.png" alt="kess box" data-aos="fade-up" data-aos-duration="1000">
+    <img class="kess-box" src="assets/img/home/kess-box.png" alt="kess box" data-aos="fade-up" data-aos-duration="1000">
 
     <p class="text text-4" data-aos="fade-up" data-aos-duration="1000">
       Top Secret, Patent Pending!<br>
@@ -68,7 +68,7 @@
     </p>
 
     <div class="kess-board" data-aos="fade-up" data-aos-duration="1000">
-      <img class="kess-board-img" src="assets/img/kess-board.png" alt="kess board">
+      <img class="kess-board-img" src="assets/img/home/kess-board.png" alt="kess board">
       <p class="kess-board-text">
         Limited Sets<br>
         Available!
@@ -99,7 +99,7 @@
     <!-- /Countdown Box -->
 
     <a href="#">
-      <img class="green-btn" src="assets/img/green-btn.png" alt="green btn">
+      <img class="green-btn" src="assets/img/home/green-btn.png" alt="green btn">
     </a>
 
     <p class="green-text">
@@ -115,15 +115,15 @@
     </p>
 
     <div class="links">
-      <a class="link" href="#">Contact</a>
+      <a class="link" href="contact.html">Contact</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="#">About US</a>
+      <a class="link" href="about.html">About US</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="#">Subscribe</a>
+      <a class="link" href="subscribe.html">Subscribe</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="#">Terms and conditions</a>
+      <a class="link" href="term.html">Terms and conditions</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="#">Privacy policy</a>
+      <a class="link" href="privacy.html">Privacy policy</a>
     </div>
 
     <p class="email">

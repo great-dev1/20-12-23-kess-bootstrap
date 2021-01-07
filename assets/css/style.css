@@ -38,15 +38,6 @@ a {
   transform: translate3d(0, -8px, 0);
 }
 
-/* Body Background Image */
-.body-back {
-  position: absolute;
-  z-index: -1;
-  top: 35px;
-  left: 0;
-  width: 100%;
-}
-
 /* Header */
 .header {
   background-color: white;
@@ -67,6 +58,17 @@ a {
   width: 30px;
   height: auto;
   margin-left: 5px;
+}
+
+/*------------------------------ Homepage ----------------------------*/
+
+/* Body Background Image */
+.body-back {
+  position: absolute;
+  z-index: -1;
+  top: 35px;
+  left: 0;
+  width: 100%;
 }
 
 /* Main */
@@ -170,7 +172,7 @@ a {
 
 .number {
   display: inline-block;
-  background-image: url("../img/blue-circle.png");
+  background-image: url("../img/home/blue-circle.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -213,16 +215,16 @@ a {
 }
 
 .address {
-  margin: 7.8vw 0 2.3vw;
+  margin: 4.8vw 0 2.3vw;
 }
 
-.link {
+.footer-link {
   margin: 0;
   color: white;
   transition: 0.3s;
 }
 
-.link:hover {
+.footer-link:hover {
   text-decoration: none;
   color: grey;
 }
@@ -285,11 +287,135 @@ a {
     font-size: 4vw;
   }
 
-  .link {
-    margin: 1vw;
+  .address {
+    margin: 7.8vw 0 2.3vw;
+  }
+
+  .footer-link {
+    margin: 0.7vw;
   }
 
   .email {
     margin: 1.2vw 0 5.1vw;
+  }
+}
+
+/*------------------------------ Intro Page ----------------------------*/
+
+/* Intro Top */
+.intro-top {
+  background-image: url("../img/intro/top-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 270px;
+}
+
+.intro-top-content {
+  width: 300px;
+  font-size: 32px;
+}
+
+.intro-title {
+  float: right;
+  margin-right: 20px;
+  margin-bottom: -30px;
+}
+
+.intro-img {
+  max-width: 100%;
+}
+
+.intro-subtitle {
+  width: 200px;
+  height: 40px;
+  margin-top: -10px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+/* Woman Section */
+.woman-section {
+  position: relative;
+  background-image: url("../img/intro/woman.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 56.25vw;
+}
+
+.red-btn {
+  width: 20.1vw;
+  margin-top: -6vw;
+}
+
+.blue-kess {
+  position: absolute;
+  bottom: 0;
+  width: 31vw;
+  margin-right: 7vw;
+}
+
+/* Intro Footer */
+.intro-footer {
+  background-image: url("../img/intro/footer-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 270px;
+  padding-top: 40px;
+  font-size: 28px;
+}
+
+.intro-footer .footer-link {
+  margin: 8px;
+}
+
+.intro-footer .vertical-bar {
+  font-size: 20px;
+}
+
+.intro-copyright {
+  margin-top: 2.7vw;
+}
+
+@media only screen and (min-width: 769px) {
+  .intro-top {
+    height: 26.9vw;
+  }
+
+  .intro-top-content {
+    width: 52.3vw;
+    font-size: 5vw;
+  }
+
+  .intro-title {
+    margin-right: 4vw;
+    margin-bottom: -5.7vw;
+  }
+
+  .intro-subtitle {
+    width: 32vw;
+    height: 4.8vw;
+    margin-top: -2.5vw;
+    padding-bottom: 0.5vw;
+    border-radius: 1.4vw;
+  }
+
+  .intro-footer {
+    height: 26.5vw;
+    padding-top: 2.4vw;
+    font-size: 3.9vw;
+  }
+
+  .intro-footer .footer-link {
+    margin: 0.7vw;
+  }
+
+  .intro-footer .vertical-bar {
+    font-size: 2.5vw;
   }
 }
