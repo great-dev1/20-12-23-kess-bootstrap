@@ -18,8 +18,12 @@
 </head>
 
 <body>
-  <img class="body-back" src="assets/img/body-back-1.jpg">
+  <!-- <img src="../testback-1.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.7"> -->
 
+  <!-- Body Backgound Image -->
+  <img class="body-back" src="assets/img/body-back.jpg">
+
+  <!-- Navbar -->
   <header class="header">
     <div class="navmenu d-flex flex-row justify-content-between align-items-center">
       <a href="#">
@@ -33,13 +37,14 @@
       </div>
     </div>
   </header>
-
-  <img class="top-img" src="assets/img/top.png" alt="top img">
+  <!-- /Navbar -->
 
   <main class="main d-flex flex-column justify-content-between align-items-center">
     <P class="text text-1" data-aos="fade-up" data-aos-duration="1000">
-      KESS<sup class="sup-1">TM</sup> Is Simply The First Original Board<br>
-      Game To Hit The Game Scene In Decades.
+      <span>
+        KESS<sup class="sup-1">TM</sup> Is Simply The First Original Board<br>
+        Game To Hit The Game Scene In Decades.
+      </span>
     </P>
 
     <P class="text text-2" data-aos="fade-up" data-aos-duration="1000">
@@ -68,24 +73,28 @@
       </p>
     </div>
 
-    <div class="counterdown-box" data-aos="fade-up" data-aos-duration="1000">
+    <!-- Countdown Box -->
+    <div class="countdown-box" data-aos="fade-up" data-aos-duration="1000">
       <p>
         Time Left Until<br>
         KESS<sup class="sup-1">TM</sup> Launches
       </p>
+
       <div class="time-number d-flex align-items-center">
-        <div class="number d-flex justify-content-center align-items-center">21</div>
+        <div class="number">21</div>
         <p class="hyphen">-</p>
-        <div class="number d-flex justify-content-center align-items-center">15</div>
+        <div class="number">15</div>
         <p class="hyphen">-</p>
-        <div class="number d-flex justify-content-center align-items-center">20</div>
+        <div class="number">20</div>
       </div>
+
       <div class="time-text d-flex justify-content-between align-items-center">
         <p>Days</p>
         <p>Hours</p>
-        <p>Minutes</p>
+        <p>Minutes  </p>
       </div>
     </div>
+    <!-- /Countdown Box -->
 
     <a href="#">
       <img class="green-btn" src="assets/img/green-btn.png" alt="green btn">
@@ -95,7 +104,6 @@
       Be the First to Get KESS<sup class="sup-1">TM</sup><br>
       Join Our Mailing List
     </p>
-
   </main>
 
   <footer class="footer">
@@ -111,7 +119,6 @@
       <span class="vertical-bar">|</span>
       <a class="link" href="#">Subscribe</a>
       <span class="vertical-bar">|</span>
-      <br class="d-block d-md-none">
       <a class="link" href="#">Terms and conditions</a>
       <span class="vertical-bar">|</span>
       <a class="link" href="#">Privacy policy</a>
