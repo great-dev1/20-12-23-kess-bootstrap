@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
+  <title>Subscribe</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="about-body">
-  <!-- <img src="../testback-4.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.7"> -->
+<body class="subscribe-body">
+  <!-- <img src="../testback-5.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.7"> -->
 
   <!-- Navbar -->
   <header class="header">
@@ -41,32 +41,74 @@
   <main>
     <!-- Page Title -->
     <div class="d-flex flex-column align-items-center">
-      <h1 class="subpage-title">About US</h1>
+      <h2 class="subpage-subtitle">
+        It is not launch day yet !<br>
+        Sign up for our mailing list and we will let you know<br>
+        The moment the game boxes are ready to ship
+      </h2>
       <div class="under-line"></div>
     </div>
     <!-- /Page Title -->
 
-    <!-- About Detail -->
-    <div class="about-detail">
-      <p class="text-left">
-        Hi<br>
-        We are KESS LLC, a small startup based out of beautiful Wisconsin. All we do is make board games. And
-        Kess is our first product. Kess is a game of strategy that is really fast moving, it is suitable for those of us
-        who like games to move fast and we get to win or lose fast. And it is 100% skill based, there is no element
-        of luck, so if you have a fast brain, you could be really good at Kess. It really has been a long long time
-        since a really original board game came out. So we thought, let us make one that is original, moves fast,
-        allows strategic thinking , and yet is super fun for the whole family. We are working on the online version of
-        Kess, but nothing beats being able to play with a real board and real pieces. Kess is the kind of game you
-        could play on your porch or on the beach or at the park. Everybody gets to have a whole lot of fun, and that is
-        what matters.<br>
-        Kess On!<br>
-        Dave<br>
-        KESS LLC, Wisconsin
+    <!-- Subscribe Form -->
+    <form action="" class="subscribe-form needs-validation shadow">
+      <h2 class="form-title">
+        TELL ME WHEN KESS LAUNCHES!
+      </h2>
+
+      <p class="form-detail">
+        Be the first to know when then KESS game hits the shelves.
+        Only a very limited number of game sets will be available
+        and will be sold on a first served basis. No pre-orders are
+        accepted.
       </p>
 
-      <img class="about-img" src="assets/img/about/kess.png" alt="kess">
-    </div>
-    <!-- /About Detail -->
+      <h3 class="form-subtitle">
+        Enter your email address to subscribe <sup>*</sup>
+      </h3>
+
+      <div class="form-group">
+        <label class="email-label" for="email">Email address</label>
+        <input type="email" class="form-control email-input" placeholder="" id="email" required>
+        <p class="form-explain">Provide your email address to subscribe. For e.g. abc@xyz.com</p>
+      </div>
+
+      <div class="form-group form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember" required>
+          <p class="ml-1 ml-md-3">
+            I agree to receive your promotional email and accept the data privacy statement.
+          </p>
+        </label>
+      </div>
+      <p class="form-explain">You might unsubscribe at any time using the link in our newsletter.</p>
+
+      <div class="recaptcha-block d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <p class="recaptcha-text">
+          ERROR for site owner:<br>
+          Invalid doman for site key
+        </p>
+
+        <img class="recaptcha-img" src="assets/img/subscribe/recaptcha.png" alt="recaptcha icon">
+      </div>
+
+      <div class="dendinblue-section d-flex flex-column flex-md-row justify-content-between align-items-center">
+        <img class="m-3" src="assets/img/subscribe/blue-shield.png" alt="blue shield">
+
+        <p class="dendinblue-text">
+          We use Sendinblue as our marketing platform. By Clicking
+          below to submit this form, you acknowledge that the
+          information you provided will be transferre to Sendinblue for
+          processing in accordance with their <a class="term-link" href="term.html">terms of use</a>
+        </p>
+      </div>
+
+      <div class="text-center">
+        <button class="subscribe-btn" type="submit">S U B S C R I B E</button>
+      </div>
+    </form>
+    <!-- /Subscribe Form -->
+
   </main>
 
   <footer class="subpage-footer contact-footer">
