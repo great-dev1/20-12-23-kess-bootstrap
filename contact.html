@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>How To Play</title>
+  <title>Contact Us</title>
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,8 +19,8 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="intro-body">
-  <!-- <img src="../testback-2.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.7"> -->
+<body class="contact-body">
+  <!-- <img src="../testback-3.jpg" style="position: absolute; z-index: 99; top: 0; left: 0; width: 100%; opacity: 0.7"> -->
 
   <!-- Navbar -->
   <header class="header">
@@ -39,27 +39,30 @@
   <!-- /Navbar -->
 
   <main>
-    <!-- Intro Top -->
-    <div class="intro-top d-flex justify-content-center align-items-center">
-      <div class="intro-top-content">
-        <p class="intro-title">HOW TO PLAY</p>
-        <img class="intro-img" src="assets/img/intro/top-logo.png" alt="top logo">
-        <p class="text intro-subtitle">Secrets Revealed</p>
-      </div>
-    </div>
-    <!-- /Intro Top -->
+    <form action="" class="contact-form needs-validation">
+      <h1 class="form-title">Contact Us</h1>
+      <div class="under-line"></div>
 
-    <!-- Woman Section -->
-    <div class="woman-section d-flex justify-content-center align-items-center">
-      <a href="#">
-        <img class="red-btn hover-move-up" src="assets/img/intro/red-btn.png" alt="red btn">
-      </a>
-      <img class="blue-kess" src="assets/img/intro/Blue_Kess.gif" alt="blue kess">
-    </div>
-    <!-- /Woman Section -->
+      <div class="form-group">
+        <input type="text" class="form-control input-box" placeholder="Name" id="name" required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" class="form-control input-box" placeholder="Email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <textarea class="form-control text-area" cols="" rows="5" placeholder="Message" id="message" required></textarea>
+      </div>
+
+      <!-- <div class="d-flex justify-content-end"> -->
+      <button class="submit-btn" type="submit">Submit</button>
+      <!-- </div> -->
+    </form>
+
   </main>
 
-  <footer class="subpage-footer">
+  <footer class="subpage-footer contact-footer">
     <div class="links">
       <a class="footer-link" href="contact.html">Contact</a>
       <span class="vertical-bar">|</span>

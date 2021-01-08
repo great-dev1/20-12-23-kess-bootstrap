@@ -37,11 +37,10 @@
     </div>
   </header>
   <!-- /Navbar -->
-
-  <!-- Body Backgound Image -->
-  <img class="body-back" src="assets/img/home/body-back.jpg">
-
+  
   <main class="main d-flex flex-column justify-content-between align-items-center">
+    <img class="body-back" src="assets/img/home/body-back.jpg">
+
     <P class="text text-1" data-aos="fade-up" data-aos-duration="1000">
       <span>
         KESS<sup class="sup-1">TM</sup> Is Simply The First Original Board<br>
@@ -115,15 +114,15 @@
     </p>
 
     <div class="links">
-      <a class="link" href="contact.html">Contact</a>
+      <a class="footer-link" href="contact.html">Contact</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="about.html">About US</a>
+      <a class="footer-link" href="about.html">About Us</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="subscribe.html">Subscribe</a>
+      <a class="footer-link" href="subscribe.html">Subscribe</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="term.html">Terms and conditions</a>
+      <a class="footer-link" href="term.html">Terms and conditions</a>
       <span class="vertical-bar">|</span>
-      <a class="link" href="privacy.html">Privacy policy</a>
+      <a class="footer-link" href="privacy.html">Privacy policy</a>
     </div>
 
     <p class="email">

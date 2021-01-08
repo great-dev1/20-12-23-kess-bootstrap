@@ -5,6 +5,7 @@
 }
 
 body {
+  min-height: 100vh;
   font-family: myFont;
   text-align: center;
   color: white;
@@ -44,38 +45,38 @@ a {
 }
 
 .navmenu {
-  width: 300px;
+  width: 95%;
   height: 60px;
   margin: auto;
 }
 
 .logo {
-  width: 130px;
+  width: 140px;
   height: auto;
 }
 
 .nav-icon {
-  width: 30px;
+  width: 35px;
   height: auto;
-  margin-left: 5px;
+  margin-left: 3px;
 }
 
 /*------------------------------ Homepage ----------------------------*/
 
-/* Body Background Image */
-.body-back {
-  position: absolute;
-  z-index: -1;
-  top: 35px;
-  left: 0;
-  width: 100%;
-}
-
 /* Main */
 .main {
+  position: relative;
   padding-top: 74.5vw;
   font-size: 17px;
   line-height: 1.2;
+}
+
+.body-back {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .text {
@@ -239,24 +240,6 @@ a {
 }
 
 @media only screen and (min-width: 376px) {
-  .body-back {
-    top: 0;
-  }
-
-  .navmenu {
-    width: 66vw;
-    height: 7.9vw;
-  }
-
-  .logo {
-    width: 23.84vw;
-  }
-
-  .nav-icon {
-    width: 5.58vw;
-    margin-left: 1.84vw;
-  }
-
   .main {
     font-size: 5vw;
   }
@@ -300,14 +283,33 @@ a {
   }
 }
 
+@media only screen and (min-width: 577px) {
+  .navmenu {
+    width: 66vw;
+    height: 7.9vw;
+  }
+
+  .logo {
+    width: 23.84vw;
+  }
+
+  .nav-icon {
+    width: 5.58vw;
+    margin-left: 1.84vw;
+  }
+}
+
 /*------------------------------ Intro Page ----------------------------*/
 
-/* Intro Top */
-.intro-top {
-  background-image: url("../img/intro/top-back.jpg");
+.intro-body {
+  background-image: url("../img//intro/body-back.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/* Intro Top */
+.intro-top {
   width: 100%;
   height: 270px;
 }
@@ -359,22 +361,18 @@ a {
 }
 
 /* Intro Footer */
-.intro-footer {
-  background-image: url("../img/intro/footer-back.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.subpage-footer {
   width: 100%;
   height: 270px;
   padding-top: 40px;
   font-size: 28px;
 }
 
-.intro-footer .footer-link {
+.subpage-footer .footer-link {
   margin: 8px;
 }
 
-.intro-footer .vertical-bar {
+.subpage-footer .vertical-bar {
   font-size: 20px;
 }
 
@@ -389,6 +387,7 @@ a {
 
   .intro-top-content {
     width: 52.3vw;
+    margin-top: -1.8vw;
     font-size: 5vw;
   }
 
@@ -405,17 +404,137 @@ a {
     border-radius: 1.4vw;
   }
 
-  .intro-footer {
+  .subpage-footer {
     height: 26.5vw;
     padding-top: 2.4vw;
     font-size: 3.9vw;
   }
 
-  .intro-footer .footer-link {
+  .subpage-footer .footer-link {
     margin: 0.7vw;
   }
 
-  .intro-footer .vertical-bar {
+  .subpage-footer .vertical-bar {
     font-size: 2.5vw;
+  }
+}
+
+/*------------------------------ Contact Page ----------------------------*/
+
+.contact-body {
+  background-image: url("../img//contact/body-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 10px;
+}
+
+.form-title {
+  margin-bottom: 0;
+  font-size: 60px;
+}
+
+.under-line {
+  width: 90px;
+  height: 5px;
+  margin-bottom: 40px;
+  border-radius: 0.3vw;
+  background-color: white;
+}
+
+.input-box,
+.text-area,
+.submit-btn {
+  margin: 0.7vw;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #75c018;
+}
+
+.input-box,
+.text-area {
+  padding-left: 15px;
+}
+
+.input-box::placeholder,
+.text-area::placeholder {
+  color: #75c018;
+}
+
+.input-box {
+  width: 300px;
+  height: 50px;
+}
+
+.text-area {
+  width: 300px;
+}
+
+.submit-btn {
+  width: 150px;
+  height: 45px;
+  border: none;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  color: white;
+  background-color: grey;
+}
+
+.submit-btn:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 769px) {
+  .contact-form {
+    margin: 2.6vw auto 4.4vw;
+  }
+
+  .form-title {
+    margin-bottom: -0.2vw;
+    font-size: 6.8vw;
+  }
+
+  .under-line {
+    width: 11.4vw;
+    height: 0.9vw;
+    margin-bottom: 6vw;
+  }
+
+  .input-box {
+    width: 34vw;
+    height: 5.9vw;
+  }
+
+  .input-box,
+  .text-area,
+  .submit-btn {
+    border-radius: 1.5vw;
+    font-size: 3.1vw;
+  }
+
+  .input-box,
+  .text-area {
+    padding-left: 1.7vw;
+  }
+
+  .text-area {
+    width: 34vw;
+  }
+
+  .submit-btn {
+    width: 14vw;
+    height: 4.5vw;
+  }
+
+  .contact-footer {
+    height: 22.5vw;
   }
 }
