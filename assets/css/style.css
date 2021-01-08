@@ -907,3 +907,12 @@ input.form-check-input {
     margin: 2.6vw auto -1vw;
   }
 }
+
+/*------------------------------ Privacy Page ----------------------------*/
+
+.privacy-body {
+  background-image: url("../img/term/body-back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
