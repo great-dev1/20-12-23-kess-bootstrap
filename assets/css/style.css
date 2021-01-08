@@ -435,15 +435,14 @@ a {
   margin: 50px auto 10px;
 }
 
-.form-title {
-  margin-bottom: 0;
+.subpage-title {
+  margin: 50px 0 0;
   font-size: 60px;
 }
 
 .under-line {
   width: 90px;
   height: 5px;
-  margin-bottom: 40px;
   border-radius: 0.3vw;
   background-color: white;
 }
@@ -494,18 +493,17 @@ a {
 
 @media only screen and (min-width: 769px) {
   .contact-form {
-    margin: 2.6vw auto 4.4vw;
+    margin: 6vw auto 4.3vw;
   }
 
-  .form-title {
-    margin-bottom: -0.2vw;
+  .subpage-title {
+    margin: 2.6vw 0 -0.2vw;
     font-size: 6.8vw;
   }
 
   .under-line {
     width: 11.4vw;
     height: 0.9vw;
-    margin-bottom: 6vw;
   }
 
   .input-box {
@@ -536,5 +534,33 @@ a {
 
   .contact-footer {
     height: 22.5vw;
+  }
+}
+
+/*------------------------------ About Page ----------------------------*/
+
+.about-detail {
+  width: 90vw;
+  margin: 0.8vw auto 5.8vw;
+  font-size: 24px;
+  line-height: 1.18;
+}
+
+.about-img {
+  width: 90vw;
+  margin-top: 20px;
+}
+
+@media only screen and (min-width: 577px) {
+  .about-img {
+    width: 47vw;
+    margin-top: -8vw;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .about-detail {
+    width: 83vw;
+    font-size: 2.9vw;
   }
 }
