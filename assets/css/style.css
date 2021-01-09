@@ -210,10 +210,15 @@ a {
   font-size: 16px;
 }
 
+.dog-img {
+  width: 46.6vw;
+  margin: 5.1vw auto 0;
+}
+
 .green-btn {
-  width: 32vw;
+  width: 38vw;
   height: auto;
-  margin-top: 3.4vw;
+  margin-top: 3vw;
 }
 
 .green-text {
@@ -272,10 +277,6 @@ a {
     font-size: 3.3vw;
   }
 
-  .green-btn {
-    width: 22.8vw;
-  }
-
   .green-text {
     font-size: 4.6vw;
   }
@@ -315,6 +316,10 @@ a {
   .play-btn {
     top: 13vw;
     width: 12vw;
+  }
+
+  .green-btn {
+    width: 22.8vw;
   }
 }
 
