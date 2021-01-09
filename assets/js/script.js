@@ -8,3 +8,9 @@ $(document).ready(function () {
     $(".video").css({"visibility": "visible"});
   });
 });
+
+var vid = document.getElementById("myVideo"); 
+
+function playVideo() {
+  vid.play(); 
+} 
