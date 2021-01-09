@@ -26,7 +26,7 @@
         <img class="logo hover-move-up" src="assets/img/logo.png" alt="logo">
       </a>
       <div>
-        <a href="#"><img class="nav-icon hover-move-up" src="assets/img/shop-icon.png" alt="shop"></a>
+        <a href="subscribe.html"><img class="nav-icon hover-move-up" src="assets/img/shop-icon.png" alt="shop"></a>
         <a href="intro.html"><img class="nav-icon hover-move-up" src="assets/img/howto-icon.png" alt="howto"></a>
         <a href="#"><img class="nav-icon hover-move-up" src="assets/img/facebook-icon.png" alt="facebook"></a>
         <a href="#"><img class="nav-icon hover-move-up" src="assets/img/twitter-icon.png" alt="twitter"></a>
@@ -34,9 +34,18 @@
     </div>
   </header>
   <!-- /Navbar -->
-  
+
   <main class="main d-flex flex-column justify-content-between align-items-center">
     <img class="body-back" src="assets/img/home/body-back.jpg">
+
+    <!-- Video -->
+    <img class="play-btn hover-move-up" src="assets/img/red-btn.png" alt="red btn">
+
+    <video class="video" controls>
+      <source src="assets/img/home/video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- /Video -->
 
     <P class="text text-1" data-aos="fade-up" data-aos-duration="1000">
       <span>
@@ -95,7 +104,7 @@
     <!-- /Countdown Box -->
 
     <a href="#">
-      <img class="green-btn" src="assets/img/home/green-btn.png" alt="green btn">
+      <img class="green-btn hover-move-up" src="assets/img/home/green-btn.png" alt="green btn">
     </a>
 
     <p class="green-text">

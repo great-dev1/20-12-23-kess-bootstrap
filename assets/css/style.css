@@ -66,7 +66,6 @@ a {
 /* Main */
 .main {
   position: relative;
-  padding-top: 74.5vw;
   font-size: 17px;
   line-height: 1.2;
 }
@@ -77,6 +76,20 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+}
+
+/* Video */
+.play-btn {
+  position: absolute;
+  top: 10vw;
+  width: 60px;
+  cursor: pointer;
+}
+
+.video {
+  width: 100%;
+  height: auto;
+  visibility: hidden;
 }
 
 .text {
@@ -102,6 +115,7 @@ a {
 .text-1 {
   width: 66.1vw;
   height: 16.6vw;
+  margin-top: 37vw;
 }
 
 .text-2 {
@@ -296,6 +310,11 @@ a {
   .nav-icon {
     width: 5.58vw;
     margin-left: 1.84vw;
+  }
+
+  .play-btn {
+    top: 13vw;
+    width: 12vw;
   }
 }
 
@@ -887,8 +906,38 @@ input.form-check-input {
 }
 
 .term-box {
+  position: relative;
   width: 95vw;
+  height: 98.4vw;
   margin: 30px auto 0;
+  padding-top: 10vw;
+}
+
+.box-frame {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  margin: auto;
+}
+
+.term-text {
+  width: 80vw;
+  height: 80vw;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  text-align: left;
+  color: black;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+}
+
+.term-heading {
+  margin-top: 15px;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
@@ -903,8 +952,16 @@ input.form-check-input {
   }
 
   .term-box {
-    width: 77vw;
+    width: 78.2vw;
+    height: 80.7vw;
     margin: 2.6vw auto -1vw;
+  }
+
+  .term-text {
+    width: 62vw;
+    height: 64vw;
+    font-size: 18px;
+    line-height: 1.8;
   }
 }
 
@@ -915,4 +972,9 @@ input.form-check-input {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.inner-link {
+  text-decoration: underline;
+  color: black;
 }
