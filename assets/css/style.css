@@ -125,17 +125,13 @@ a {
 }
 
 .globe {
-  position: relative;
-  right: 4.2vw;
-  width: 48vw;
+  width: 50vw;
   height: auto;
-  margin-top: 4.3vw;
 }
 
 .text-3 {
   width: 44vw;
   height: 9.8vw;
-  margin-top: 5.4vw;
 }
 
 .kess-box {
@@ -355,10 +351,10 @@ a {
 
 .intro-subtitle {
   width: 200px;
-  height: 40px;
   margin-top: -10px;
-  padding-bottom: 5px;
+  padding: 10px 0;
   border-radius: 15px;
+  line-height: 1;
 }
 
 /* Woman Section */
@@ -406,7 +402,7 @@ a {
 
 @media only screen and (min-width: 769px) {
   .intro-top {
-    height: 26.9vw;
+    height: 33vw;
   }
 
   .intro-top-content {
@@ -422,9 +418,8 @@ a {
 
   .intro-subtitle {
     width: 32vw;
-    height: 4.8vw;
     margin-top: -2.5vw;
-    padding-bottom: 0.5vw;
+    padding: 1vw 0;
     border-radius: 1.4vw;
   }
 
