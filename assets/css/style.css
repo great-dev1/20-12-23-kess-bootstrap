@@ -70,13 +70,13 @@ a {
   line-height: 1.2;
 }
 
-/* .body-back {
+.body-back {
   position: absolute;
   z-index: -1;
   top: 0;
   left: 0;
   width: 100%;
-} */
+}
 
 .blue-fade {
   position: absolute;
