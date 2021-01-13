@@ -78,9 +78,18 @@ a {
   width: 100%;
 }
 
+.fade-effect {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 /* Video */
 .play-btn {
   position: absolute;
+  z-index: 2;
   top: 10vw;
   width: 60px;
   cursor: pointer;
@@ -334,26 +343,17 @@ a {
   height: 270px;
 }
 
-.intro-top-content {
-  width: 300px;
-  font-size: 32px;
-}
-
 .intro-title {
-  float: right;
-  margin-right: 20px;
-  margin-bottom: -30px;
-}
-
-.intro-img {
-  max-width: 100%;
+  margin-bottom: 10px;
+  font-size: 48px;
+  line-height: 1;
 }
 
 .intro-subtitle {
-  width: 200px;
-  margin-top: -10px;
+  width: 280px;
   padding: 10px 0;
   border-radius: 15px;
+  font-size: 25px;
   line-height: 1;
 }
 
@@ -400,27 +400,21 @@ a {
   margin-top: 2.7vw;
 }
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 576px) {
   .intro-top {
-    height: 33vw;
-  }
-
-  .intro-top-content {
-    width: 52.3vw;
-    margin-top: -1.8vw;
-    font-size: 5vw;
+    height: 20vw;
   }
 
   .intro-title {
-    margin-right: 4vw;
-    margin-bottom: -5.7vw;
+    margin-bottom: 1vw;
+    font-size: 6.8vw;
   }
 
   .intro-subtitle {
-    width: 32vw;
-    margin-top: -2.5vw;
+    width: 60vw;
     padding: 1vw 0;
     border-radius: 1.4vw;
+    font-size: 5vw;
   }
 
   .subpage-footer {

@@ -37,12 +37,13 @@
   <!-- /Navbar -->
 
   <main class="main d-flex flex-column justify-content-between align-items-center">
-    <img class="body-back" src="assets/img/home/body-back.jpg">
+    <img class="body-back" src="assets/img/home/body-back.jpg" alt="background">
+    <img class="fade-effect" src="assets/img/home/fade.png" alt="fade effect">
 
     <!-- Video -->
     <img class="play-btn hover-move-up" src="assets/img/red-btn.png" onclick="playVideo()" alt="red btn">
 
-    <video id="myVideo" class="video" controls>
+    <video id="myVideo" class="video">
       <source src="assets/img/home/video.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
