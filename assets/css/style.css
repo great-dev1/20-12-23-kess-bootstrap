@@ -108,7 +108,7 @@ a {
   margin: auto;
   border: 2px solid rgba(103, 162, 3, 0.8);
   border-radius: 1vw;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sup-1 {
@@ -183,7 +183,7 @@ a {
   border: 2px solid rgba(103, 162, 3, 0.8);
   border-radius: 1vw;
   line-height: 1;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .time-number {
@@ -266,16 +266,6 @@ a {
 @media only screen and (min-width: 376px) {
   .main {
     font-size: 5vw;
-  }
-
-  .text {
-    border-color: rgba(103, 162, 3, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
-  .countdown-box {
-    border-color: rgba(103, 162, 3, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .time-text {
